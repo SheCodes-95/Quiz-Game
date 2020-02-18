@@ -35,12 +35,28 @@ let questions = [
     choice4: "alert('Hello World');",
     answer: 4
   },
+  {
+    question: "What does VAT stand for?",
+    choice1: "Value Additional Taxation",
+    choice2: "Value Added Tax",
+    choice3: "Value Axpected Taxation",
+    choice4: "Value Added Taxation",
+    answer: 2
+  },
+  {
+    question: "Which country hosted the fifa world cup in 2010?",
+    choice1: "United Kingdom",
+    choice2: "Ghana",
+    choice3: "South Africa",
+    choice4: "Brazil",
+    answer: 3
+  },
  
 ];
 
 //constants
 const CORRECT_BONUS=10;
-const MAX_QUESTIONS=3;
+const MAX_QUESTIONS=5;
 
 startGame= () => {
   questionCounter=0;
